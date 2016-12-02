@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Bing Search CLI with support for Web, News, Related Items, AutoSuggest, and Images. Images are displayed inline in the terminal for iterm2 users (Mac) and in colorized ASCII output.\"",
   "main": "index.js",
+  "bin": {
+    "bing": "./bin/bing"
+  },
   "scripts": {
     "test": "node_modules/.bin/grunt ci"
   },
@@ -24,12 +27,14 @@
   "dependencies": {
     "ansi-escapes": "^1.4.0",
     "co": "^4.6.0",
+    "exit": "^0.1.2",
     "image-info": "0.0.2",
     "image-to-ascii": "^3.0.5",
     "is-url": "^1.2.2",
     "iterm2-version": "^2.2.0",
     "pget": "^0.1.1",
     "request": "^2.79.0",
+    "resolve": "^1.1.7",
     "tempfile": "^1.1.1"
   },
   "devDependencies": {

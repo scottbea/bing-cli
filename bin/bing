@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+'use strict';
+/* eslint no-unused-expressions: [2, { allowShortCircuit: true }] */
+
+// Provide a title to the process in `ps`
+process.title = 'bing';
+
+// require('time-require');
+var resolve = require('resolve');
+var exit = require('exit');
+
+resolve('bing-cli', {
+  basedir: process.cwd()
+}, function(error, projectLocalCli) {
+  var command;
+  if (error) {
+    // If there is an error, resolve could not find the ember-cli
+    // library from a package.json. Instead, include it from a relative
+    // path to this script file (which is likely a globally installed
+    // npm package). Most common cause for hitting this is `ember new`
+    command = require('../index.js');
+  } else {
+    // No error implies a projectLocalCli, which will load whatever
+    // version of ember-cli you have installed in a local package.json
+    command = require(projectLocalCli);
+  }
+
+  command();
+});
