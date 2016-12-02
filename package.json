@@ -27,6 +27,7 @@
   "dependencies": {
     "ansi-escapes": "^1.4.0",
     "co": "^4.6.0",
+    "colors": "^1.1.2",
     "exit": "^0.1.2",
     "image-info": "0.0.2",
     "image-to-ascii": "^3.0.5",
