@@ -1,6 +1,6 @@
 {
   "name": "bing-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bing Search CLI with support for Web, News, Related Items, AutoSuggest, and Images. Images are displayed inline in the terminal for iterm2 users (Mac) and in colorized ASCII output.\"",
   "main": "index.js",
   "bin": {
@@ -36,7 +36,8 @@
     "pget": "^0.1.1",
     "request": "^2.79.0",
     "resolve": "^1.1.7",
-    "tempfile": "^1.1.1"
+    "tempfile": "^1.1.1",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
