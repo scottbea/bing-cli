@@ -4,7 +4,9 @@ Bing Search CLI with support for Web, News, Related Items, AutoSuggest, and Imag
 
 Note: This project is not affiliated with Microsoft Corporation
 
-[![Join the chat at https://gitter.im/bing-cli/Lobby](https://badges.gitter.im/bing-cli/Lobby.svg)](https://gitter.im/bing-cli/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![build status](https://secure.travis-ci.org/scottbea/bing-cli.png)](http://travis-ci.org/scottbea/bing-cli) [![npm version](https://badge.fury.io/js/bing-cli.svg)](https://badge.fury.io/js/bing-cli) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) [![dependency Status](https://david-dm.org/scottbea/bing-cli.svg?style=flat)](https://david-dm.org/scottbea/bing-cli) [![devDependency Status](https://david-dm.org/scottbea/bing-cli/dev-status.png?style=flat)](https://david-dm.org/scottbea/bing-cli?type=dev)
+[![Join the chat at https://gitter.im/bing-cli/Lobby](https://badges.gitter.im/bing-cli/Lobby.svg)](https://gitter.im/bing-cli/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![build status](https://secure.travis-ci.org/scottbea/bing-cli.png)](http://travis-ci.org/scottbea/bing-cli) [![npm version](https://badge.fury.io/js/bing-cli.svg)](https://badge.fury.io/js/bing-cli) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) 
+
+[![dependency Status](https://david-dm.org/scottbea/bing-cli.svg?style=flat)](https://david-dm.org/scottbea/bing-cli) [![devDependency Status](https://david-dm.org/scottbea/bing-cli/dev-status.png?style=flat)](https://david-dm.org/scottbea/bing-cli?type=dev)
 
 ## Installation
 
@@ -51,6 +53,7 @@ Once you do this, you can visit [subscriptions](https://www.microsoft.com/cognit
 Once you subscribe, you can then click the Show link to reveal the API keys. Then copy these keys and put them in the exports for the .bash_profile (as mentioned above).
 
 ## Development
+I'm doing occasional development on this project, but mostly focusing on compatability and utility for the exisitng use cases. I'm open to feedback on new features and collaboration - just post an Issue.
 
 ### Testing
 
@@ -68,8 +71,8 @@ Available [here](https://github.com/scottbea/bing-cli/CHANGELOG.md).
 
 ## Credits
 
-This library is using Microsoft's Cognitive Services APIs for Bing Search queries.
+This library is using [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services) APIs for Bing Search queries.
 
 ## License
 
-MIT.
+MIT
