@@ -1,4 +1,6 @@
 # bing-cli
+
+[![Join the chat at https://gitter.im/bing-cli/Lobby](https://badges.gitter.im/bing-cli/Lobby.svg)](https://gitter.im/bing-cli/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Bing Search CLI with support for Web, News, Related Items, AutoSuggest, and Images. Images are displayed inline in the terminal for iterm2 users (Mac) and in colorized ASCII output.
 
 Note: This project is not affiliated with Microsoft Corporation
