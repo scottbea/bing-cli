@@ -13,8 +13,6 @@ This module is installed via npm:
 $ npm install bing-cli -g
 ```
 
-To compile the latest, ensure you have [node-pre-gyp](https://github.com/mapbox/node-pre-gyp) installed. Then run:
-
 
 ## Usage
 This package is meant to be used as a command-line tool.
