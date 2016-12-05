@@ -26,10 +26,23 @@ $ brew install graphicsmagick
 This package is meant to be used as a command-line tool.
 
 ``` js
+$ bing <search query> [-c <n>]
+$ bing image <query> [-full] [-unsafe] [-c <n>] [-type <imageType>] [-size <imageSize>]
+$ bing images <query> [-unsafe] [-c <n>]
+$ bing news
+$ bing news <query>
+$ bing related <query>
+$ bing suggest <query>
+```
+
+## Examples
+This package is meant to be used as a command-line tool.
+
+``` js
 $ bing puff the magic dragon
 $ bing -c 3 "sql server on linux"
 $ bing images famous people
-$ bing image yosemite
+$ bing image yosemite -full
 $ bing news
 $ bing news politics
 $ bing news azure aws google cloud

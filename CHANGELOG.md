@@ -15,4 +15,15 @@ v0.1.6
 
 v0.1.7
 - added sample screen shots for usage
-- simplified the README instructions and added details for GraphicsMagick and Bing APIs
+- simplified the README instructions and added details for GraphicsMagick and Bing API
+
+
+v0.1.8
+- minor bug fixes
+
+
+v0.1.9
+- added support for new -type flag for image search: (gif, line, clipart, photo, product)
+- added support for new -size flag for image search: (small, medium, large, wallpaper, all)
+- added support for displaying the original content instead of a thumbail. Specify raw image with -full flag.
+
