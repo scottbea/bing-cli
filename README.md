@@ -1,11 +1,12 @@
 # bing-cli
 
-Bing Search CLI with support for Web, News, Related Items, AutoSuggest, and Images. Images are displayed inline in the terminal for iterm2 users (Mac) and in colorized ASCII output.
+Execute Bing Search queries from the terminal including Web, News, Related Search, AutoSuggest, and Images. Images are displayed as colorized-ASCII art or as inline images directly (if using iTerm2).
 
-Note: This project is not affiliated with Microsoft Corporation
+*Note: This project is not affiliated with Microsoft Corporation*
+
+-
 
 [![Join the chat at https://gitter.im/bing-cli/Lobby](https://badges.gitter.im/bing-cli/Lobby.svg)](https://gitter.im/bing-cli/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![build status](https://secure.travis-ci.org/scottbea/bing-cli.png)](http://travis-ci.org/scottbea/bing-cli) [![npm version](https://badge.fury.io/js/bing-cli.svg)](https://badge.fury.io/js/bing-cli) [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org) 
-
 [![dependency Status](https://david-dm.org/scottbea/bing-cli.svg?style=flat)](https://david-dm.org/scottbea/bing-cli) [![devDependency Status](https://david-dm.org/scottbea/bing-cli/dev-status.png?style=flat)](https://david-dm.org/scottbea/bing-cli?type=dev)
 
 ## Installation
@@ -16,16 +17,11 @@ This module is installed via npm:
 $ npm install bing-cli -g
 ```
 
-## Setup
-Bing-CLI requires API keys from Microsoft Cognitive Services to work. Currently, this only works when the API keys are exported as environment variables. It is recommended you add something like this to your .bash_profile or equivalent shell init script:
+The image search features requires that you download and install [GraphicsMagick](http://www.graphicsmagick.org/). In Mac OS X, you can simply use [Homebrew](http://mxcl.github.io/homebrew/) and do:
 
-``` shell
-export BING_SEARCH_KEY=<your key here>
-export BING_AUTOSUGGEST_KEY=<your key here>
+``` bash
+$ brew install graphicsmagick
 ```
-
-Additional options are planned, including an `-init` command, support for .mscredentials file, and other options.
-
 
 ## Usage
 This package is meant to be used as a command-line tool.
@@ -41,19 +37,29 @@ $ bing news azure aws google cloud
 $ bing related apache spark
 $ bing suggest gaussi
 ```
+## Configuration
+### Subscribing to APIs
+Bing-CLI requires API keys from Microsoft to work properly. To get your API keys, you will need to sign up for [Microsoft Congnitive Services](https://www.microsoft.com/cognitive-services/en-us/subscriptions) by creating a new account with an email, or by signing up with your GitHub or LinkedIn account. 
 
-## Registering for Services
-To get your API keys, you will need to sign up for Microsoft Congnitive Services by creating a new account with an email, or by signing up with your GitHub or LinkedIn account.
+Once you do this, you can click on the Pricing link to subscribe to a free-tier of services (more than enough for personal use) for the following APIs:
 
-Once you do this, you can visit [subscriptions](https://www.microsoft.com/cognitive-services/en-us/subscriptions) to subscrbe to free-tier of service usage which is more than enough for personal use. There are many services available to sign up for, but the service APIs required for this module are:
-
-- Bing Search - Free
+- Bing Web Search - Free
 - Bing Autosuggest - Free 
 
-Once you subscribe, you can then click the Show link to reveal the API keys. Then copy these keys and put them in the exports for the .bash_profile (as mentioned above).
+Once you subscribe to each API, you can then click the Show link to reveal the API keys. Then copy these keys and put them in the exports for the .bash_profile (as mentioned above).
+
+``` shell
+export BING_SEARCH_KEY=<your key here>
+export BING_AUTOSUGGEST_KEY=<your key here>
+```
+
+Make sure to restart the shell or source .bash_profile (or other shell profile file) for the changes to take effect.
+
+``` shell
+$ source ~/.bash_profile
+```
 
 ## Development
-I'm doing occasional development on this project, but mostly focusing on compatability and utility for the exisitng use cases. I'm open to feedback on new features and collaboration - just post an Issue.
 
 ### Testing
 
@@ -67,11 +73,8 @@ Please report any bugs [here](https://github.com/scottbea/bing-cli/issues).
 
 ### Changelog
 
-Available [here](https://github.com/scottbea/bing-cli/CHANGELOG.md).
+Available [here](https://github.com/scottbea/bing-cli/blob/master/CHANGELOG.md).
 
-## Credits
-
-This library is using [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services) APIs for Bing Search queries.
 
 ## License
 
