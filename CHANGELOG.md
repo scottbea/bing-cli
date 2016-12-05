@@ -10,4 +10,9 @@ v0.1.5
 
 v0.1.6
 - added support for environment variables for the API Keys
-- updated the README with details on how to get a free subscription to the Bing APIs
+- updated the README with details on how to get a free subscription to the Bing API
+
+
+v0.1.7
+- added sample screen shots for usage
+- simplified the README instructions and added details for GraphicsMagick and Bing APIs

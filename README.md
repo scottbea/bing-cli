@@ -37,6 +37,9 @@ $ bing news azure aws google cloud
 $ bing related apache spark
 $ bing suggest gaussi
 ```
+
+![Example Screen Shot](https://github.com/scottbea/bing-cli/raw/master/docs/screen3.png)
+
 ## Configuration
 ### Subscribing to APIs
 Bing-CLI requires API keys from Microsoft to work properly. To get your API keys, you will need to sign up for [Microsoft Congnitive Services](https://www.microsoft.com/cognitive-services/en-us/subscriptions) by creating a new account with an email, or by signing up with your GitHub or LinkedIn account. 
