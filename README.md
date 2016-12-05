@@ -42,13 +42,15 @@ $ bing suggest gaussi
 
 ## Configuration
 ### Subscribing to APIs
-Bing-CLI requires API keys from Microsoft to work properly. To get your API keys, you will need to sign up for [Microsoft Congnitive Services](https://www.microsoft.com/cognitive-services/en-us/subscriptions) by creating a new account with an email, or by signing up with your GitHub or LinkedIn account. 
+Bing-CLI requires API keys from Microsoft to work at scale. There is a trial set of API keys included with limited query quota that is enough for trying it out. 
 
-Once you do this, you can click on the Pricing link to subscribe to a free-tier of services (more than enough for personal use) for the following APIs:
+Sustained usage will require that you 
+get your API keys, you will need to sign up for [Microsoft Congnitive Services](https://www.microsoft.com/cognitive-services/en-us/subscriptions) by creating a new account with an email, or by signing up with your GitHub or LinkedIn account. Once you do this, you can click on the Pricing link to subscribe to a free-tier of services (more than enough for personal use) for the following APIs:
 
 - Bing Web Search - Free
 - Bing Autosuggest - Free 
 
+### Setting Environment Variables
 Once you subscribe to each API, you can then click the Show link to reveal the API keys. Then copy these keys and put them in the exports for the .bash_profile (as mentioned above).
 
 ``` shell
