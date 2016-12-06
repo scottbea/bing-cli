@@ -27,3 +27,11 @@ v0.1.9
 - added support for new -size flag for image search: (small, medium, large, wallpaper, all)
 - added support for displaying the original content instead of a thumbail. Specify raw image with -full flag.
 
+
+v0.2.0
+- added support for -bw and -grey flags for image search
+- added support for -ascii flag for image search to force display of image as ascii
+- added new ASCII render modes with -pixels and -blocks
+- added new ASCII background color option with -bg <rgb>
+- added new ASCII image inversion with -invert
+- added a -version flag to show the version number of the app

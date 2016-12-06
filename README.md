@@ -10,29 +10,31 @@ Execute Bing Search queries from the terminal including Web, News, Related Searc
 
 ## Installation
 
-This module is installed via npm:
+First, install GraphicsMagick to support the image search features [GraphicsMagick](http://www.graphicsmagick.org/). In Mac OS X, you can simply use [Homebrew](http://mxcl.github.io/homebrew/) and do:
+
+``` bash
+$ brew install graphicsmagick
+```
+
+Then, the Bing-CLI module is installed globally via npm:
 
 ``` bash
 $ npm install bing-cli -g
 ```
 
-The image search features requires that you download and install [GraphicsMagick](http://www.graphicsmagick.org/). In Mac OS X, you can simply use [Homebrew](http://mxcl.github.io/homebrew/) and do:
-
-``` bash
-$ brew install graphicsmagick
-```
 
 ## Usage
 This package is meant to be used as a command-line tool.
 
 ``` js
 $ bing <search query> [-c <n>]
-$ bing image <query> [-full] [-unsafe] [-c <n>] [-type <imageType>] [-size <imageSize>]
+$ bing image <query> [-full] [-unsafe] [-c <n>] [-type <imageType>] [-size <imageSize> [-bw] [-grey] [-pixels] [-blocks] [-bg <rgb>]]
 $ bing images <query> [-unsafe] [-c <n>]
 $ bing news
 $ bing news <query>
 $ bing related <query>
 $ bing suggest <query>
+$ bing -version
 ```
 
 ## Examples
@@ -43,11 +45,14 @@ $ bing puff the magic dragon
 $ bing -c 3 "sql server on linux"
 $ bing images famous people
 $ bing image yosemite -full
+$ bing image apple logo -size small -full -scale 0.5 -ascii -bw -invert
+$ bing image hawaii -ascii -pixels
 $ bing news
 $ bing news politics
 $ bing news azure aws google cloud
 $ bing related apache spark
 $ bing suggest gaussi
+$ bing netscaler manual fileType:pdf
 ```
 
 ![Example Screen Shot](https://github.com/scottbea/bing-cli/raw/master/docs/screen3.png)
