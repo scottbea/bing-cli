@@ -1,3 +1,20 @@
+# Short List
+## Defects
+
+- <del>Fix -version flag on displaying author</del> ✓
+- <del>Change the News Search to have valid URLs</del> ✓
+ 
+
+## Enhancements
+
+- Add details on installing iTerm2 for the Mac
+- Add a -help command with details
+- Run tests for downlevel versions of NodeJS
+- Run tests on NodeJS for Windows
+- Update the docs for platform-specific installs
+- Start adding real test coverage
+ 
+
 # Image Search
 ## Additional Query Filters
 
@@ -70,5 +87,41 @@ We might be able to support the following richer results:
 - Flight Status
 - Movie Times
 - StackOverflow
+
+# Document Other Terminals
+
+https://www.enlightenment.org/about-terminology?s%5B%5D=terminology
+https://en.wikipedia.org/wiki/Guake
+https://github.com/Swordfish90/cool-retro-term
+http://alternativeto.net/software/cool-retro-term/
+
+https://www.idera.com/productssolutions/freetools/powershellplus
+http://cmder.net/
+https://conemu.github.io/
+https://mridgers.github.io/clink/
+https://git-for-windows.github.io/
+https://sourceforge.net/projects/console/
+https://poshconsole.codeplex.com/
+
+## Caca
+http://askubuntu.com/questions/97542/how-do-i-make-my-terminal-display-graphical-pictures
+http://caca.zoy.org/wiki/libcaca
+sudo apt-get install caca-utils
+cacaview /PATH/TO/image.jpg
+mplayer -vo caca /PATH/TO/video.mpg
+
+## Linux FBI
+sudo apt-get install fbi
+
+## Terminology
+https://www.youtube.com/watch?feature=player_embedded&v=ibPziLRGvkg
+
+
+https://github.com/ichinaski/pxl
+http://savannah.nongnu.org/projects/fbi-improved/
+http://www.nongnu.org/fbi-improved/
+https://github.com/saitoha/libsixel
+
+
 
 

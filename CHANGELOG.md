@@ -35,3 +35,6 @@ v0.2.0
 - added new ASCII background color option with -bg <rgb>
 - added new ASCII image inversion with -invert
 - added a -version flag to show the version number of the app
+
+
+v0.2.1
