@@ -1,6 +1,6 @@
 {
   "name": "bing-cli",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Use Bing Search in the terminal via command line",
   "main": "index.js",
   "bin": {

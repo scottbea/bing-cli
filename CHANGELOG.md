@@ -40,7 +40,10 @@ v0.2.0
 v0.2.1
 - updated the sample API keys to make it work out of the box
 
-v0.2.2.
+v0.2.2
+- minor bux fix
+
+v0.2.3
 - added suppport for image queries based on -aspect
 - added support for image queries based on -content
 - fixed a bug with the news query to show the redirect url instead of the internal (API) url
