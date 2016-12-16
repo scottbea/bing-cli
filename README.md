@@ -53,6 +53,7 @@ $ bing news azure aws google cloud
 $ bing related apache spark
 $ bing suggest gaussi
 $ bing netscaler manual fileType:pdf
+$ bing image homeaway.com logo -ascii -blocks -size medium -invert -scale 0.8
 ```
 
 ![Example Screen Shot](https://github.com/scottbea/bing-cli/raw/master/docs/screen3.png)
