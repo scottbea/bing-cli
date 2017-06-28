@@ -20,11 +20,11 @@
 
 By default, the Images API returns all images that are relevant to the query. To filter the images, use the following filter query parameters.
 
-- aspect—Filter images by aspect ratio (for example, standard or wide screen images) 
+- <del>aspect—Filter images by aspect ratio (for example, standard or wide screen images)</del> ✓
 - color—Filter images by color or black and white
 - freshness—Filter images by age (for example, images discovered by Bing in the past week)
 - height—Filter images by height
-- imageContent—Filter images by content (for example, images that show only a person's face)
+- <del>imageContent—Filter images by content (for example, images that show only a person's face)</del> ✓
 - license—Filter images by the type of license that applies to the image
 - width—Filter images by width
 
@@ -53,7 +53,7 @@ In the future, we want to consider adding image processing features that would m
 
 
 ## Allow for site-constrained searches
-To get images from a specific domain, use the site: query operator. 
+<del>To get images from a specific domain, use the site: query operator.</del> ✓ 
 
 ```
 $ bing image site:wikipedia.org bill gates
@@ -121,7 +121,5 @@ https://github.com/ichinaski/pxl
 http://savannah.nongnu.org/projects/fbi-improved/
 http://www.nongnu.org/fbi-improved/
 https://github.com/saitoha/libsixel
-
-
 
 
