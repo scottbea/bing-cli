@@ -42,11 +42,12 @@
   },
   "devDependencies": {
     "expect.js": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-complexity": "*",
     "grunt-contrib-jshint": "*",
     "grunt-contrib-watch": "*",
-    "grunt": "*",
     "grunt-mocha-cli": "*",
-    "grunt-complexity": "*",
-    "grunt-cli": "*"
+    "mocha": "^6.2.2"
   }
 }

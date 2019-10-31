@@ -47,3 +47,8 @@ v0.2.3
 - added suppport for image queries based on -aspect
 - added support for image queries based on -content
 - fixed a bug with the news query to show the redirect url instead of the internal (API) url
+
+v0.2.4
+- updated the Azure keys (free-tier, limited usage)
+- migrated to v7 (from v5) of Bing Search API and Autosuggest
+- implemented a new "entity" search using the Microsoft Cognitive Services Entity Search
