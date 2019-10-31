@@ -25,28 +25,28 @@
     "url": "https://github.com/scottbea/bing-cli/issues"
   },
   "dependencies": {
-    "ansi-escapes": "^1.4.0",
+    "ansi-escapes": "^4.2.1",
     "co": "^4.6.0",
-    "colors": "^1.1.2",
+    "colors": "^1.4.0",
     "exit": "^0.1.2",
-    "gm": "^1.23.0",
+    "gm": "^1.23.1",
     "image-info": "0.0.2",
-    "image-to-ascii": "^3.0.5",
-    "is-url": "^1.2.2",
-    "iterm2-version": "^2.2.0",
+    "image-to-ascii": "^3.0.12",
+    "is-url": "^1.2.4",
+    "iterm2-version": "^4.2.0",
     "pget": "^0.1.1",
-    "request": "^2.79.0",
-    "resolve": "^1.1.7",
-    "tempfile": "^1.1.1",
-    "underscore": "^1.8.3"
+    "request": "^2.88.0",
+    "resolve": "^1.12.0",
+    "tempfile": "^3.0.0",
+    "underscore": "^1.9.1"
   },
   "devDependencies": {
-    "expect.js": "^0.3.1",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt": "^1.0.1",
-    "grunt-mocha-cli": "^3.0.0",
-    "grunt-complexity": "^1.0.1",
-    "grunt-cli": "^1.2.0"
+    "expect.js": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*",
+    "grunt": "*",
+    "grunt-mocha-cli": "*",
+    "grunt-complexity": "*",
+    "grunt-cli": "*"
   }
 }
